@@ -1,9 +1,8 @@
 var navigatorMessageMap = {
 	'mac': 'macos',
-	'iphone': 'ios',
+	'iphone': 'macos',
 	'win': 'windows',
-	'lin': 'linux',
-	'andr': 'android'
+	'lin': 'linux'
 };
 
 var platform = navigator.platform.toLowerCase();
